@@ -27,6 +27,40 @@ nav a, nav span {
     color: black;
 }
 
+header{
+    text-align: center;
+}
+header h1{
+    font-family: 'Kurale', serif;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+header h4{
+    margin-top: 0;
+}
+
+header img {
+    height: 400px;;
+}
+
+/* || main layout  */
+
+main {
+    display: block;
+  }
+  
+  
+article, section {
+    flex: 4;
+  }
+
+
+body{
+    padding: 20px;
+}
+
+
+
 footer{
     text-align: center;
 }
