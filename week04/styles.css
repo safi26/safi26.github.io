@@ -23,7 +23,7 @@ nav a, nav span {
     display: inline-block;
     font-size: 1.5rem;
     height: 2rem;
-    line-height: 1.7;
+    /* line-height: 1.7; */
     text-transform: uppercase;
     text-decoration: none;
     color: black;
@@ -73,9 +73,10 @@ section {
     color: #0c0505;
 }
 
-section h2{
+section h2 {
     text-indent: 20px;
 }
+
 section li {
     list-style: square;
     font-size: large;
@@ -98,5 +99,4 @@ section li {
 footer {
     text-align: center;
     font-size: smaller;
-    
 }
