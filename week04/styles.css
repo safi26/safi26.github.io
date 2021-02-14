@@ -2,13 +2,15 @@ nav {
     height: 50px;
     flex: 100%;
     display: flex;
+    background-color: bisque;
+    margin-top: 10px;
 }
 
 nav ul {
+    display: flex;
     padding: 0;
     list-style-type: none;
     flex: 2;
-    display: flex;
 }
 
 nav li {
@@ -27,40 +29,74 @@ nav a, nav span {
     color: black;
 }
 
-header{
+header {
     text-align: center;
 }
-header h1{
+
+header h1 {
     font-family: 'Kurale', serif;
     font-size: 50px;
     margin-bottom: 0;
 }
-header h4{
+
+header h4 {
     margin-top: 0;
 }
 
 header img {
-    height: 400px;;
+    height: 400px;
+    ;
 }
 
 /* || main layout  */
 
 main {
     display: block;
-  }
-  
-  
-article, section {
-    flex: 4;
-  }
-
-
-body{
-    padding: 20px;
 }
 
-
-
-footer{
+main h4 {
     text-align: center;
+}
+
+article, section {
+    flex: 4;
+}
+
+body {
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+section {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0c0505;
+}
+
+section h2{
+    text-indent: 20px;
+}
+section li {
+    list-style: square;
+    font-size: large;
+}
+
+#ingredients, #notes {
+    padding: 10px;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#instructions, #topping {
+    background-color: cornsilk;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    
 }
